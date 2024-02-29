@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+
+    // Write your code here.
+    char character;
+    int result;
+    scanf("%c", &character);
+
+    if (character <= 'Z' && character >= 'A') {
+        result = 1;
+    } else if (character <= 'z' && character >= 'a') {
+        result = 0;
+    } else {
+        result = -1;
+    }
+
+    printf("%d", result);
+}
