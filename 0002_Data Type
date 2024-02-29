@@ -1,0 +1,17 @@
+public class Solution {
+    public static int dataTypes(String type) {
+        // Write your code here
+        int result = -1;
+
+        switch(type) {
+            case "Integer" : result = 4; break;
+            case "Long" : result = 8; break;
+            case "Float" : result = 4; break;
+            case "Double" : result = 8; break;
+            case "Character" : result = 1; break;
+        }
+
+        
+        return result; 
+    }
+}
